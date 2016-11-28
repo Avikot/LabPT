@@ -44,7 +44,7 @@ public class PTApp {
             parsingService.getExpression();
 
         } catch (Exception e) {
-            throw new RuntimeException("Stream reading failed: ", e);
+            throw new RuntimeException("\nStream reading failed: ", e);
         }
 
     }
